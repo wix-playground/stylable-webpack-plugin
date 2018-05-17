@@ -16,7 +16,7 @@ yarn add stylable-webpack-plugin --dev
 ```
 
  Sample dev config:
-```bash
+```js
 // webpack.config.js
 module.exports = {
   …
@@ -43,7 +43,7 @@ module.exports = {
 > The plugin defaults into development mode. For a production build, you must use a manual configuration, according to your specific requirements.
 
 ### Sample production configuration
-```bash
+```js
 new StylableWebpackPlugin({ 
     outputCSS: true, 
     includeCSSInJS: false,
@@ -58,7 +58,7 @@ new StylableWebpackPlugin({
 ```
 ## Asset handling
 CSS assets are handled by a url-loader + file-loader combination.
-```bash
+```js
  module: {
     rules: [
       {
