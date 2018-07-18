@@ -1,4 +1,4 @@
-# This repo has moved to the [Stylable](https://github.com/wix/stylable) mono-repo. 
+# This package has moved to the [Stylable](https://github.com/wix/stylable/tree/master/packages/stylable-webpack-plugin) mono-repo. 
 
 # Stylable Webpack Plugin
 
